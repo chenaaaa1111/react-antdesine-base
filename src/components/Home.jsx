@@ -10,7 +10,7 @@ import 'moment/locale/zh-cn';
 
 moment.locale('zh-cn');
 
-class Home extends React.Component {
+class Home extends React.PureComponent {
   state = {
     date: null,
   };
