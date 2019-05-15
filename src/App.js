@@ -1,11 +1,12 @@
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 // import logo from './logo.svg';
+import 'moment/locale/zh-cn';
 import './App.css';
 import {  Route, Switch } from "react-router";
 import Home from './components/Home';
 import { BrowserRouter } from 'react-router-dom'
 
-class App extends PureComponent {
+class App extends Component {
   // constructor(props) {
   //   super(props);
   // }
